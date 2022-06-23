@@ -184,3 +184,47 @@ def showImage03(request):
         print("未找到")
         responseDate = {'data': 0, 'code': '404', 'message': '错误!'}
     return JsonResponse(responseDate)
+
+
+def findDataHIM(request):
+    datetimequery = request.GET['query']
+    print(datetimequery)
+    cmod = Calhim.objects
+    try:
+        data = cmod.filter(datetime__startswith=datetimequery[0:17]).values()
+        if data.count() == 0:
+            responseDate = {'data': 0, 'code': '404', 'message': '沒有找到!'}
+        else:
+            json_data = list(data)
+            json_data = json.dumps(
+                json_data, cls=DateEncoder, ensure_ascii=False)
+            responseDate = {'data': json_data,
+                            'code': '200', 'message': '获取成功!'}
+    except Exception as e:
+        print("except:", e)
+        print("未找到")
+        responseDate = {'data': 0, 'code': '404', 'message': '错误!'}
+    return JsonResponse(responseDate)
+
+
+def showImageHIM(request):
+    datetimequery = request.GET['query']
+    cmod = Calhim.objects
+    try:
+        data = cmod.filter(datetime__startswith=datetimequery[0:16]).values(
+            "wavelength", "diff", "global_irr", "direct", "dg_radio")
+        if data.count() == 0:
+            responseDate = {'data': 0, 'code': '404', 'message': '沒有找到!'}
+        else:
+            json_data = list(data)
+            json_data = json.dumps(
+                json_data, cls=DateEncoder, ensure_ascii=False)
+            print(type(json_data))
+            responseDate = {'data': json_data,
+                            'code': '200', 'message': '获取成功!'}
+            # print(json_data)
+    except Exception as e:
+        print("except:", e)
+        print("未找到")
+        responseDate = {'data': 0, 'code': '404', 'message': '错误!'}
+    return JsonResponse(responseDate)

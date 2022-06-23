@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'upload'
+    'upload',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -110,6 +111,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
+##############################
+# 通过提供一个值给AUTH_USER_MODEL设置，指向自定义的模型，Django允许你覆盖默认的User模型：
+# 这个点式路径包含Django应用的名称（必须位于你的INSTALLED_APPS中），和要用作User模型的Django模型的名称。
+# AUTH_USER_MODEL = 'users.User'
+
 LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'Asia/Shanghai'
@@ -131,3 +137,77 @@ CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
     'http://localhost:8080'
 )
+
+CACHES = {
+    "default": {  # 默认
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "session": {  # session
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "code": {  # 用于保存session数据
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
+    'formatters': {  # 日志信息显示的格式
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(lineno)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(module)s %(lineno)d %(message)s'
+        },
+    },
+    'filters': {  # 对日志进行过滤
+        'require_debug_true': {  # django在debug模式下才输出日志
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'handlers': {  # 日志处理方法
+        'console': {  # 向终端中输出日志
+            'level': 'INFO',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'file': {  # 向文件中输出日志
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/calapp.log'),  # 日志文件的位置
+            'maxBytes': 300 * 1024 * 1024,
+            'backupCount': 10,
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {  # 日志器
+        'django': {  # 定义了一个名为django的日志器
+            'handlers': ['console', 'file'],  # 可以同时向终端与文件中输出日志
+            'propagate': True,  # 是否继续传递日志信息
+            'level': 'INFO',  # 日志器接收的最低日志级别
+        },
+    }
+}
+
+# CORS
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie

@@ -8,4 +8,6 @@ urlpatterns = [
     path('showimage02/', views.showImage02),
     path('finddata03/', views.findData03),
     path('showimage03/', views.showImage03),
+    path('finddatahim/', views.findDataHIM),
+    path('showimagehim/', views.showImageHIM),
 ]

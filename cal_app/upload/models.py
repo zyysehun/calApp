@@ -4,26 +4,10 @@ from datetime import datetime
 # Create your models here.
 
 
-class User(models.Model):
-    username = models.CharField(max_length=50)  # 员工账号
-    nickname = models.CharField(max_length=50)  # 昵称
-    password_hash = models.CharField(max_length=100)  # 密码
-    password_salt = models.CharField(max_length=50)  # 密码干扰值
-    status = models.IntegerField(default=1)  # 状态:1正常/2禁用/6管理员/9删除
-    create_at = models.DateTimeField(default=datetime.now)  # 创建时间
-    update_at = models.DateTimeField(default=datetime.now)  # 修改时间
-
-    def toDict(self):
-        return {'id': self.id, 'username': self.username, 'nickname': self.nickname, 'password_hash': self.password_hash, 'password_salt': self.password_salt, 'status': self.status, 'create_at': self.create_at.strftime('%Y-%m-%d %H:%M:%S'), 'update_at': self.update_at.strftime('%Y-%m-%d %H:%M:%S')}
-
-    class Meta:
-        db_table = "user"  # 更改表名
-
-
 class Cal(models.Model):
-    # date = models.DateField()
-    # time = models.TimeField()
-    datetime = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField()
+    # datetime = models.DateTimeField()
     wavelength = models.IntegerField()
     caldata = models.FloatField()
 
@@ -35,9 +19,8 @@ class Cal(models.Model):
 
 
 class Cal02(models.Model):
-    # date = models.DateField()
-    # time = models.TimeField()
-    datetime = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField()
     wavelength = models.IntegerField()
     caldata = models.FloatField()
 
@@ -49,9 +32,8 @@ class Cal02(models.Model):
 
 
 class Cal03(models.Model):
-    # date = models.DateField()
-    # time = models.TimeField()
-    datetime = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField()
     wavelength = models.IntegerField()
     caldata = models.FloatField()
 
@@ -63,9 +45,8 @@ class Cal03(models.Model):
 
 
 class Calhim(models.Model):
-    # date = models.DateField()
-    # time = models.TimeField()
-    datetime = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField()
     wavelength = models.IntegerField()
     diff = models.FloatField()
     global_irr = models.FloatField()
@@ -77,3 +58,103 @@ class Calhim(models.Model):
 
     class Meta:
         db_table = "tb_him"  # 更改表名
+
+
+class Spec01(models.Model):
+    date = models.DateField()
+    time = models.TimeField()
+    # datetime = models.DateTimeField()
+    wavelength = models.IntegerField()
+    reflectance = models.FloatField()
+
+    def toDict(self):
+        return {'id': self.id, 'datetime': self.datetime, 'wavelength': self.wavelength, 'reflectance': self.reflectance}
+
+    class Meta:
+        db_table = "tb_spec01"  # 更改表名
+
+
+class Spec02(models.Model):
+    date = models.DateField()
+    time = models.TimeField()
+    # datetime = models.DateTimeField()
+    wavelength = models.IntegerField()
+    reflectance = models.FloatField()
+
+    def toDict(self):
+        return {'id': self.id, 'datetime': self.datetime, 'wavelength': self.wavelength, 'reflectance': self.reflectance}
+
+    class Meta:
+        db_table = "tb_spec02"  # 更改表名
+
+
+class Spec03(models.Model):
+    date = models.DateField()
+    time = models.TimeField()
+    # datetime = models.DateTimeField()
+    wavelength = models.IntegerField()
+    reflectance = models.FloatField()
+
+    def toDict(self):
+        return {'id': self.id, 'datetime': self.datetime, 'wavelength': self.wavelength, 'reflectance': self.reflectance}
+
+    class Meta:
+        db_table = "tb_spec03"  # 更改表名
+
+
+class Psrv1(models.Model):
+    date = models.DateField()
+    time = models.TimeField()
+    nm_340 = models.IntegerField()
+    nm_380 = models.IntegerField()
+    nm_440 = models.IntegerField()
+    nm_500 = models.IntegerField()
+    nm_675 = models.IntegerField()
+    nm_870 = models.IntegerField()
+    nm_937 = models.IntegerField()
+    nm_1020 = models.IntegerField()
+    nm_1640 = models.IntegerField()
+    wktemp = models.FloatField()
+    envitemp = models.FloatField()
+    envihumi = models.FloatField()
+    pressure = models.IntegerField()
+    Inenvitemp = models.FloatField()
+    Inenvihumi = models.FloatField()
+    Headtemp = models.FloatField()
+    Headhumi = models.FloatField()
+    FQ1 = models.IntegerField()
+    FQ2 = models.IntegerField()
+    FQ3 = models.IntegerField()
+    FQ4 = models.IntegerField()
+
+    # def toDict(self):
+    #     return {'id': self.id, 'datetime': self.datetime, 'wavelength': self.wavelength, 'reflectance': self.reflectance}
+
+    class Meta:
+        db_table = "tb_psrv1"  # 更改表名
+
+
+class Psrv2(models.Model):
+    date = models.DateField()
+    time = models.TimeField()
+    wZenith = models.FloatField()
+    wAirmass = models.FloatField()
+    wCloud = models.IntegerField()
+    wAOD340 = models.FloatField()
+    wAOD380 = models.FloatField()
+    wAOD440 = models.FloatField()
+    wAOD500 = models.FloatField()
+    wAOD675 = models.FloatField()
+    wAOD870 = models.FloatField()
+    wAOD1020 = models.FloatField()
+    wAOD1640 = models.FloatField()
+    walpha = models.FloatField()
+    wbeta = models.FloatField()
+    wAOD550 = models.FloatField()
+    wPW = models.FloatField()
+
+    # def toDict(self):
+    #     return {'id': self.id, 'datetime': self.datetime, 'wavelength': self.wavelength, 'reflectance': self.reflectance}
+
+    class Meta:
+        db_table = "tb_psrv2"  # 更改表名

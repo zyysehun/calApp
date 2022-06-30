@@ -2817,3 +2817,655 @@ INFO 2022-06-22 13:57:29,940 autoreload 203 E:\calApp\cal_app\showdata\views.py 
 INFO 2022-06-22 13:57:30,926 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-06-22 13:58:03,457 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
 INFO 2022-06-22 13:58:04,337 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:13:15,887 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:24:59,252 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-23 08:24:59,408 basehttp 154 "POST /users/login/ HTTP/1.1" 200 27
+INFO 2022-06-23 08:41:32,264 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-23 08:41:33,366 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:43:15,622 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 08:43:16,567 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:55:30,241 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:55:43,195 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 08:55:44,133 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 08:56:34,673 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-23 08:56:35,552 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:09:12,684 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:09:44,112 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:09:45,077 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:09:50,594 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:11:15,973 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:11:16,871 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:11:21,377 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:12:25,484 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:12:30,402 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:12:31,314 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:12:32,910 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:15:04,676 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:15:05,628 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:15:07,797 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:15:25,616 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:15:26,507 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:15:36,887 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:16:32,882 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:17:57,828 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 09:17:58,697 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:18:07,094 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 09:18:07,951 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:19:36,501 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-23 09:19:37,412 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:21:16,406 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 09:21:28,165 basehttp 154 "GET /showdata/finddataspec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 120753
+INFO 2022-06-23 09:31:11,142 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 58207
+INFO 2022-06-23 09:31:17,658 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 58207
+INFO 2022-06-23 09:31:31,750 basehttp 154 "GET /showdata/showimagehim/?query= HTTP/1.1" 200 205505
+INFO 2022-06-23 09:31:38,204 basehttp 154 "GET /showdata/showimage03/?query= HTTP/1.1" 200 66
+INFO 2022-06-23 09:31:43,050 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 58207
+INFO 2022-06-23 09:31:54,002 basehttp 154 "GET /showdata/showimagehim/?query= HTTP/1.1" 200 205505
+INFO 2022-06-23 09:32:09,545 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 58207
+INFO 2022-06-23 09:32:57,231 basehttp 154 "GET /showdata/finddatahim/?query= HTTP/1.1" 200 313559
+INFO 2022-06-23 09:33:09,008 basehttp 154 "GET /showdata/finddata/?query= HTTP/1.1" 200 122407
+INFO 2022-06-23 09:33:11,082 basehttp 154 "GET /showdata/finddata02/?query= HTTP/1.1" 200 66
+INFO 2022-06-23 09:33:13,788 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:33:17,733 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:35:08,539 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:35:17,111 basehttp 154 "GET /showdata/finddatahim/?query= HTTP/1.1" 200 313559
+INFO 2022-06-23 09:36:35,387 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:37:05,312 basehttp 154 "GET /showdata/finddataspec01/?query=2022-06-08+00:00:00 HTTP/1.1" 200 66
+INFO 2022-06-23 09:37:25,891 basehttp 154 "GET /showdata/finddataspec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 120753
+INFO 2022-06-23 09:37:28,437 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:37:30,011 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:37:50,571 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:37:53,906 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:38:04,729 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 120753
+INFO 2022-06-23 09:40:56,744 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:41:00,244 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:42:01,839 basehttp 154 "GET /showdata/finddataspec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:42:11,663 basehttp 154 "GET /showdata/finddataspec01/?query=2022-06-06+00:00:00 HTTP/1.1" 200 66
+INFO 2022-06-23 09:44:18,613 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 09:44:19,486 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:45:45,754 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:45:57,681 basehttp 154 "GET /showdata/showimagehim/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:46:01,575 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 58207
+INFO 2022-06-23 09:46:22,043 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 09:46:22,948 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:46:27,252 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:47:08,638 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:54:28,628 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:54:36,049 basehttp 154 "GET /showdata/showimagespec01/?query=2020-06-30+01:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 09:54:44,030 basehttp 154 "GET /showdata/showimagespec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 58207
+INFO 2022-06-23 09:55:01,883 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 09:55:11,717 basehttp 154 "GET /showdata/showimagespec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 58207
+INFO 2022-06-23 09:56:20,529 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:56:21,565 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:56:31,186 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-23 09:56:32,092 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:57:11,570 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-23 09:57:12,496 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:59:27,725 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:59:28,672 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:59:38,193 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:59:39,166 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:59:45,231 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 09:59:46,204 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 09:59:53,454 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-23 09:59:54,399 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:00:05,038 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-23 10:00:05,903 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:03:17,056 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 10:03:18,027 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:03:48,303 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-23 10:03:49,163 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:08:45,070 basehttp 154 "POST /upload02/ HTTP/1.1" 200 69
+INFO 2022-06-23 10:12:14,712 basehttp 154 "POST /uploadspec02/ HTTP/1.1" 200 81
+INFO 2022-06-23 10:12:43,323 basehttp 154 "GET /showdata/finddataspec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 10:13:56,128 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 10:13:57,057 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:14:22,715 basehttp 154 "GET /showdata/finddataspec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 10:14:56,574 basehttp 154 "POST /uploadspec02/ HTTP/1.1" 200 81
+INFO 2022-06-23 10:14:58,259 basehttp 154 "GET /showdata/finddataspec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 120735
+INFO 2022-06-23 10:15:10,399 basehttp 154 "GET /showdata/showimagespec02/?query= HTTP/1.1" 200 84
+INFO 2022-06-23 10:15:22,167 basehttp 154 "GET /showdata/showimagespec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 58189
+INFO 2022-06-23 10:16:38,246 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 10:16:39,205 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:17:10,471 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 10:17:11,461 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 10:18:29,363 basehttp 154 "POST /uploadspec03/ HTTP/1.1" 200 81
+INFO 2022-06-23 10:18:39,626 basehttp 154 "GET /showdata/finddataspec03/?query=2020-06-28+12:00:00 HTTP/1.1" 200 120751
+INFO 2022-06-23 10:20:01,974 basehttp 154 "GET /showdata/showimagespec03/?query=2020-06-28+12:00:00 HTTP/1.1" 200 58205
+INFO 2022-06-23 11:42:21,309 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-23 11:42:22,421 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:01:26,210 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:01:29,216 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-23 14:01:29,313 basehttp 154 "POST /users/login/ HTTP/1.1" 200 27
+INFO 2022-06-23 14:01:41,717 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-23 14:01:42,646 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:04:09,574 basehttp 154 "GET /users/index/?query= HTTP/1.1" 200 996
+INFO 2022-06-23 14:24:12,622 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:24:13,570 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:27:17,121 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:27:18,041 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:28:36,283 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-23 14:28:37,191 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:35:23,550 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:35:27,225 basehttp 154 "POST /upload/ HTTP/1.1" 200 69
+INFO 2022-06-23 14:36:21,534 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:36:22,398 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:36:25,442 basehttp 154 "POST /upload/ HTTP/1.1" 200 69
+INFO 2022-06-23 14:36:42,414 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:36:43,354 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:36:46,236 basehttp 154 "POST /upload/ HTTP/1.1" 200 69
+INFO 2022-06-23 14:36:56,466 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:36:57,389 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:37:02,753 basehttp 154 "POST /upload/ HTTP/1.1" 200 69
+INFO 2022-06-23 14:37:38,558 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 14:37:39,517 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:37:46,837 basehttp 154 "POST /upload/ HTTP/1.1" 200 69
+INFO 2022-06-23 14:44:56,176 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 14:48:39,135 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 14:48:40,047 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-23 14:48:44,370 log 222 Internal Server Error: /showdata/finddata/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\showdata\views.py", line 59, in findData
+    return JsonResponse(responseDate)
+UnboundLocalError: local variable 'responseDate' referenced before assignment
+ERROR 2022-06-23 14:48:44,373 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 500 72790
+INFO 2022-06-23 14:49:01,363 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 14:49:02,303 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:49:04,632 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 84
+INFO 2022-06-23 14:50:16,569 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 14:50:17,488 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:50:21,728 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 84
+INFO 2022-06-23 14:53:11,288 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 14:53:12,213 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:55:39,200 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:55:43,252 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 14:56:10,745 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 14:56:11,605 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:56:14,593 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 14:57:02,031 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 14:57:13,606 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 14:58:14,549 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-23 14:58:17,089 log 222 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 61, in upload
+    date = content[2]["1"]
+IndexError: list index out of range
+ERROR 2022-06-23 14:58:17,093 basehttp 154 "POST /upload/ HTTP/1.1" 500 72599
+INFO 2022-06-23 14:58:48,681 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+ERROR 2022-06-23 14:58:51,154 log 222 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 61, in upload
+    date = content[2]["1"]
+IndexError: list index out of range
+ERROR 2022-06-23 14:58:51,156 basehttp 154 "POST /upload/ HTTP/1.1" 500 72599
+INFO 2022-06-23 14:59:08,684 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 15:02:16,485 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:02:17,402 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:02:20,317 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 15:04:02,936 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:04:03,803 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:04:06,577 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 135061
+INFO 2022-06-23 15:04:41,131 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:04:42,065 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:05:33,080 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:05:33,990 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:05:56,216 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:05:57,077 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:06:04,644 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:06:17,127 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:06:18,062 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:06:20,192 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:06:42,634 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:09:06,561 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:09:07,492 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:09:10,828 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:09:40,287 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:09:41,217 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:09:43,538 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:09:54,405 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:09:55,357 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:09:59,378 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 27733
+INFO 2022-06-23 15:10:13,124 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:10:14,125 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:10:16,974 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 27733
+INFO 2022-06-23 15:10:30,930 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:10:31,865 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:10:33,775 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 54
+INFO 2022-06-23 15:10:43,963 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:10:44,963 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:10:46,578 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 135061
+INFO 2022-06-23 15:12:02,368 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 135061
+INFO 2022-06-23 15:13:02,540 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:13:03,424 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:13:36,627 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:14:02,394 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 135061
+INFO 2022-06-23 15:14:37,289 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:14:38,181 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:15:42,835 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:15:43,685 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:16:18,560 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:16:19,405 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:16:35,428 basehttp 154 "GET /showdata/showimage/?query=2020-06-25+12:12:00 HTTP/1.1" 200 56104
+INFO 2022-06-23 15:17:58,629 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:17:59,553 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:21:30,645 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:21:31,503 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:23:53,413 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:23:54,270 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:24:03,752 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:24:04,702 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:24:08,513 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:24:09,379 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:24:24,604 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:24:25,452 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:24:34,957 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 15:24:35,820 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:24:58,975 basehttp 154 "POST /upload02/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:25:14,088 basehttp 154 "GET /showdata/finddata02/?query=2021-01-23+13:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:27:10,008 basehttp 154 "GET /showdata/finddata02/?query=2021-01-23+13:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:28:38,584 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:28:39,480 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:29:00,396 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:29:01,293 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:29:21,164 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:29:22,009 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:30:09,426 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:30:10,366 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:30:38,146 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:30:39,035 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:30:59,925 basehttp 154 "POST /upload02/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:31:02,575 basehttp 154 "GET /showdata/finddata02/?query=2021-01-23+13:00:00 HTTP/1.1" 200 134520
+INFO 2022-06-23 15:31:16,578 basehttp 154 "POST /upload03/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:31:34,571 basehttp 154 "GET /showdata/finddata03/?query=2021-01-10+12:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:31:51,593 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:31:52,454 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:32:00,085 basehttp 154 "POST /upload03/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:32:06,876 basehttp 154 "POST /upload03/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:32:08,742 basehttp 154 "POST /upload03/ HTTP/1.1" 200 69
+INFO 2022-06-23 15:39:04,518 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:39:05,554 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:42:49,057 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:42:49,946 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:43:05,158 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:43:06,039 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:43:16,649 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:43:17,553 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:43:28,124 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:43:47,992 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:43:48,887 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:43:52,444 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:43:57,685 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:43:58,669 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:44:02,212 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:44:42,799 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:44:43,773 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:44:50,309 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:44:53,754 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:45:46,271 basehttp 154 "POST /upload/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:46:08,358 basehttp 154 "GET /showdata/finddata/?query=2020-06-25+12:12:00 HTTP/1.1" 200 136168
+INFO 2022-06-23 15:46:26,999 basehttp 154 "GET /showdata/showimage/?query=2020-06-25+12:12:00 HTTP/1.1" 200 56104
+INFO 2022-06-23 15:49:23,917 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 15:49:24,766 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 15:51:12,537 basehttp 154 "POST /upload02/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:51:56,365 basehttp 154 "GET /showdata/finddata02/?query=2021-01-23+13:00:00 HTTP/1.1" 200 134520
+INFO 2022-06-23 15:52:17,678 basehttp 154 "GET /showdata/showimage02/?query=2021-01-23+13:00:00 HTTP/1.1" 200 55563
+ERROR 2022-06-23 15:52:27,220 log 222 Internal Server Error: /upload03/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 160, in upload03
+    date = content[2]["1"]
+IndexError: list index out of range
+ERROR 2022-06-23 15:52:27,224 basehttp 154 "POST /upload03/ HTTP/1.1" 500 72640
+INFO 2022-06-23 15:52:40,728 basehttp 154 "POST /upload03/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:52:42,738 basehttp 154 "POST /upload03/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:52:58,741 basehttp 154 "GET /showdata/finddata03/?query=2021-01-10+12:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:53:14,267 basehttp 154 "GET /showdata/finddata03/?query=2021-10-10+12:00:00 HTTP/1.1" 200 135626
+INFO 2022-06-23 15:53:28,890 basehttp 154 "GET /showdata/showimage03/?query=2021-10-10+13:00:00 HTTP/1.1" 200 78
+INFO 2022-06-23 15:57:35,071 basehttp 154 "POST /upload03/ HTTP/1.1" 200 81
+INFO 2022-06-23 15:57:54,452 basehttp 154 "GET /showdata/finddata03/?query=2021-10-10+12:00:00 HTTP/1.1" 200 135626
+INFO 2022-06-23 15:58:52,480 basehttp 154 "GET /showdata/showimage03/?query=2021-10-10+12:00:00 HTTP/1.1" 200 55562
+INFO 2022-06-23 16:00:18,020 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:00:18,924 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:01:42,852 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:01:43,715 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:03:04,469 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:03:05,349 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:05:23,129 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:05:23,987 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:06:14,558 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:06:15,432 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:07:13,693 basehttp 154 "POST /uploadhim/ HTTP/1.1" 200 81
+INFO 2022-06-23 16:07:55,624 basehttp 154 "GET /showdata/finddatahim/?query=2021-01-03+13:48:00 HTTP/1.1" 200 332462
+INFO 2022-06-23 16:08:19,251 basehttp 154 "GET /showdata/showimagehim/?query=2021-01-03+13:48:00 HTTP/1.1" 200 205505
+INFO 2022-06-23 16:11:03,245 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:11:04,233 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:13:46,390 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:13:47,248 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:14:23,235 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 16:14:24,584 basehttp 154 "POST /uploadspec01/ HTTP/1.1" 200 81
+INFO 2022-06-23 16:14:39,935 basehttp 154 "GET /showdata/finddataspec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 133964
+INFO 2022-06-23 16:15:38,671 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:15:39,569 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:17:33,306 basehttp 154 "GET /showdata/finddataspec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 133964
+INFO 2022-06-23 16:17:50,029 basehttp 154 "GET /showdata/showimagespec01/?query=2020-06-30+12:00:00 HTTP/1.1" 200 58207
+INFO 2022-06-23 16:18:17,906 basehttp 154 "POST /uploadspec02/ HTTP/1.1" 200 81
+INFO 2022-06-23 16:18:31,999 basehttp 154 "GET /showdata/finddataspec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 133946
+INFO 2022-06-23 16:18:44,383 basehttp 154 "GET /showdata/showimagespec02/?query=2020-06-27+12:00:00 HTTP/1.1" 200 58189
+ERROR 2022-06-23 16:18:59,948 log 222 Internal Server Error: /uploadspec03/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 374, in uploadSpec03
+    date = content[1][1]
+KeyError: 1
+ERROR 2022-06-23 16:18:59,951 basehttp 154 "POST /uploadspec03/ HTTP/1.1" 500 178257
+ERROR 2022-06-23 16:20:27,437 log 222 Internal Server Error: /uploadspec03/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 374, in uploadSpec03
+    date = content[1][1]
+KeyError: 1
+ERROR 2022-06-23 16:20:27,440 basehttp 154 "POST /uploadspec03/ HTTP/1.1" 500 178257
+INFO 2022-06-23 16:21:04,964 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:21:05,908 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:21:12,724 basehttp 154 "POST /uploadspec03/ HTTP/1.1" 200 81
+INFO 2022-06-23 16:21:25,093 basehttp 154 "GET /showdata/finddataspec03/?query=2020-06-28+12:00:00 HTTP/1.1" 200 133962
+INFO 2022-06-23 16:21:44,494 basehttp 154 "GET /showdata/showimagespec03/?query=2020-06-28+12:00:00 HTTP/1.1" 200 58205
+INFO 2022-06-23 16:22:13,530 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:22:14,428 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:22:48,057 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-23 16:22:48,915 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:27:56,219 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:27:57,406 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:28:18,229 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:28:19,214 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:28:30,127 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:28:31,213 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:29:06,969 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:29:08,191 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-23 16:29:13,932 log 222 Internal Server Error: /uploadpsrv1/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 371, in uploadPsrv1
+    isExistDatetime = Spec03.objects.filter(date=date)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\__init__.py", line 1240, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['’2022-/0-6/‘ 必须为合法的日期格式，请使用 YYYY-MM-DD 格式。']
+ERROR 2022-06-23 16:29:13,945 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 500 748675
+INFO 2022-06-23 16:29:31,461 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:29:32,319 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-23 16:29:37,576 log 222 Internal Server Error: /uploadpsrv1/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\upload\views.py", line 371, in uploadPsrv1
+    isExistDatetime = Spec03.objects.filter(date=date)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\__init__.py", line 1268, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\__init__.py", line 1240, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['’2022-/0-6/‘ 必须为合法的日期格式，请使用 YYYY-MM-DD 格式。']
+ERROR 2022-06-23 16:29:37,586 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 500 748675
+INFO 2022-06-23 16:30:14,104 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:30:15,159 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:30:17,816 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:31:05,731 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:31:27,314 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:31:28,205 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:31:31,691 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:41:29,944 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-23 16:41:30,817 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:42:26,172 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 16:42:27,014 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:44:13,735 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-23 16:44:14,688 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:46:35,499 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:49:43,417 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:50:26,519 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-23 16:50:27,439 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:51:42,623 autoreload 203 E:\calApp\cal_app\users\migrations\0001_initial.py changed, reloading.
+INFO 2022-06-23 16:51:43,586 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-23 16:52:17,948 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-23 16:56:20,518 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-09 HTTP/1.1" 200 78
+INFO 2022-06-23 16:56:25,041 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 78
+INFO 2022-06-23 17:00:29,522 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-23 17:00:30,422 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:13:12,358 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:15:16,004 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-27 08:15:16,181 basehttp 154 "POST /users/login/ HTTP/1.1" 200 75
+INFO 2022-06-27 08:16:00,524 basehttp 154 "GET /users/usernames/admin1/count/ HTTP/1.1" 200 39
+INFO 2022-06-27 08:16:09,075 basehttp 154 "OPTIONS /users/register/ HTTP/1.1" 200 0
+INFO 2022-06-27 08:16:09,087 basehttp 154 "POST /users/register/ HTTP/1.1" 200 27
+INFO 2022-06-27 08:16:17,903 basehttp 154 "POST /users/login/ HTTP/1.1" 200 27
+INFO 2022-06-27 08:18:18,876 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:18:19,804 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:21:29,309 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:21:30,163 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:21:46,564 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:21:47,468 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:23:01,232 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:23:02,102 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:25:20,729 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 150780
+INFO 2022-06-27 08:26:18,192 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:26:19,099 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:26:25,240 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:26:26,137 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:27:04,716 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:28:01,018 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:28:37,773 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:29:35,046 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:30:49,493 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:32:36,777 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:33:37,152 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:35:19,878 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:41:47,641 basehttp 154 "GET /showdata/showimagespec01/?query= HTTP/1.1" 200 84
+INFO 2022-06-27 08:41:52,404 basehttp 154 "GET /showdata/showimagespec01/?query=2022-06-19+00:00:00 HTTP/1.1" 200 78
+INFO 2022-06-27 08:41:56,100 basehttp 154 "GET /showdata/showimagespec01/?query=2022-06-19+00:00:00 HTTP/1.1" 200 78
+INFO 2022-06-27 08:42:37,818 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-27 08:42:38,744 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-27 08:42:42,315 basehttp 154 "GET /showdata/showimagespec01/?query=2022-06-19+00:00:00 HTTP/1.1" 200 78
+INFO 2022-06-27 08:44:22,777 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19+00:00:00 HTTP/1.1" 200 54
+INFO 2022-06-27 08:44:58,855 basehttp 154 "GET /showdata/finddatapsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:45:49,736 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:45:52,215 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:46:32,477 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 08:46:35,333 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:14:21,634 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:17:54,599 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:18:27,300 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:18:58,813 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:19:37,398 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:21:16,949 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:23:58,513 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:25:46,214 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:27:15,111 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:27:51,181 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:28:05,990 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:29:45,088 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:30:36,404 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:31:03,366 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:32:50,220 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:34:21,862 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:34:48,876 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:35:18,288 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:35:58,334 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:36:14,792 basehttp 154 "GET /showdata/showimagepsrv1/?query= HTTP/1.1" 200 84
+INFO 2022-06-27 09:36:17,350 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:41:51,959 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:42:35,510 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:43:09,547 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-27 09:43:20,851 basehttp 154 "GET /showdata/showimagepsrv1/?query=2022-06-19 HTTP/1.1" 200 187830
+INFO 2022-06-30 08:48:24,004 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 08:50:32,490 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2022-06-30 08:50:32,641 basehttp 154 "POST /users/login/ HTTP/1.1" 200 27
+INFO 2022-06-30 09:11:47,784 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:11:48,756 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:12:33,890 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:12:34,802 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-30 09:13:41,302 log 222 Internal Server Error: /showdata/processDataPsr/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view showdata.views.processDataPsr didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-30 09:13:41,305 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 500 63316
+INFO 2022-06-30 09:14:06,482 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:14:07,413 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:14:25,214 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:14:26,194 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-30 09:14:32,471 log 222 Internal Server Error: /showdata/processDataPsr/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\showdata\views.py", line 554, in processDataPsr
+    a = os.startfile(cmd)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: '../sun/Debug/全自动太阳光度计.exe'
+ERROR 2022-06-30 09:14:32,476 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 500 72126
+INFO 2022-06-30 09:15:43,932 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:15:44,828 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:15:51,762 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 200 55
+INFO 2022-06-30 09:16:21,142 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:16:22,109 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-06-30 09:16:24,210 log 222 Internal Server Error: /showdata/processDataPsr/
+Traceback (most recent call last):
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\HADOOPIMAGE\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\calApp\cal_app\showdata\views.py", line 555, in processDataPsr
+    a = os.startfile(cmd)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: '..//sun//Debug//全自动太阳光度计.exe'
+ERROR 2022-06-30 09:16:24,213 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 500 72183
+INFO 2022-06-30 09:16:53,791 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:16:54,690 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:16:57,826 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 200 55
+INFO 2022-06-30 09:17:26,556 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 09:17:27,488 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:17:30,012 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 200 55
+INFO 2022-06-30 09:25:06,222 basehttp 154 "GET /showdata/processDataPsr/?query= HTTP/1.1" 200 55
+INFO 2022-06-30 09:30:23,437 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:30:24,362 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:30:27,044 autoreload 203 E:\calApp\cal_app\upload\urls.py changed, reloading.
+INFO 2022-06-30 09:30:27,958 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:31:50,196 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-30 09:31:51,130 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:35:04,872 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-30 09:35:05,885 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:35:21,229 autoreload 203 E:\calApp\cal_app\upload\models.py changed, reloading.
+INFO 2022-06-30 09:35:22,117 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:35:25,928 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-30 09:35:26,845 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:36:28,259 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:36:29,175 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:36:41,129 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:36:42,030 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:38:28,332 basehttp 154 "POST /uploadpsrv1/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:42:34,417 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:42:35,338 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:42:45,176 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:44:35,469 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:45:28,026 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:45:28,955 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:45:40,276 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:48:08,855 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:48:09,800 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:48:12,585 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:51:48,913 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:52:16,021 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:52:22,046 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:52:38,640 autoreload 203 E:\calApp\cal_app\upload\views.py changed, reloading.
+INFO 2022-06-30 09:52:39,621 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 09:52:44,506 basehttp 154 "POST /processDataPsr/ HTTP/1.1" 200 80
+INFO 2022-06-30 09:54:39,706 autoreload 203 E:\calApp\cal_app\showdata\urls.py changed, reloading.
+INFO 2022-06-30 09:54:40,687 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 10:05:26,177 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 10:05:39,622 basehttp 154 "GET /showdata/findprocessDataPsr/?query=2022-04-02 HTTP/1.1" 200 57397
+INFO 2022-06-30 10:11:40,335 autoreload 203 E:\calApp\cal_app\showdata\views.py changed, reloading.
+INFO 2022-06-30 10:11:41,265 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-06-30 10:15:13,949 basehttp 154 "GET /showdata/showprocessDataPsr/?query=2022-04-02 HTTP/1.1" 200 12696
